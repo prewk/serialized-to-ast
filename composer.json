@@ -1,0 +1,30 @@
+{
+    "name": "prewk/serialized-to-ast",
+    "description": "Parses serialized PHP things to an AST",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oskar Thornblad",
+            "email": "oskar.thornblad@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Prewk\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "phpspec run && psalm"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "^4.3",
+        "vimeo/psalm": "^1.1"
+    }
+}
