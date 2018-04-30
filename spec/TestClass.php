@@ -4,7 +4,7 @@ namespace spec\Prewk;
 
 class TestClass
 {
-    public $foo = "Protected foo";
+    public $foo = "Public foo";
     private $bar = "Private bar";
     protected $baz = "Protected baz";
 }

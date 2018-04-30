@@ -92,6 +92,7 @@ class Obj implements Type
 
         return [
             "type" => "object",
+            "name" => $this->name,
             "public_properties" => $publicProps,
             "protected_properties" => $protectedProps,
             "private_properties" => $privateProps,
