@@ -1,4 +1,4 @@
-# SerializedToAST
+# SerializedToAST [![Build Status](https://travis-ci.org/prewk/serialized-to-ast.svg?branch=master)](https://travis-ci.org/prewk/serialized-to-ast)
 
 Parses serialized PHP data, without deserializing, into a simple AST.
 
